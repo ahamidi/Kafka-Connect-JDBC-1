@@ -22,9 +22,9 @@ config.storage.topic=connect-configs
 config.storage.replication.factor=3
 config.storage.partitions=1
 
-offsets.storage.topic=connect-offsets
-offsets.storage.replication.factor=3
-offsets.storage.partitions=50
+offset.storage.topic=connect-offsets
+offset.storage.replication.factor=3
+offset.storage.partitions=50
 
 status.storage.topic=connect-status
 status.storage.replication.factor=3
