@@ -20,14 +20,15 @@ group.id=jdbckafkaconnect
 
 config.storage.topic=connect-configs
 config.storage.replication.factor=3
+config.storage.partitions=1
 
 offset.storage.topic=connect-offsets
 offset.storage.replication.factor=3
-offset.storage.partitions=3
+offset.storage.partitions=1
 
 status.storage.topic=connect-status
 status.storage.replication.factor=3
-status.storage.partitions=3
+status.storage.partitions=1
 
 producer.security.protocol=SSL
 producer.ssl.truststore.location=$HOME/.truststore.jks
