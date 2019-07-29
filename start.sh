@@ -24,11 +24,11 @@ config.storage.partitions=1
 
 offset.storage.topic=connect-offsets
 offset.storage.replication.factor=3
-offset.storage.partitions=1
+offset.storage.partitions=50
 
 status.storage.topic=connect-status
 status.storage.replication.factor=3
-status.storage.partitions=1
+status.storage.partitions=10
 
 producer.security.protocol=SSL
 producer.ssl.truststore.location=$HOME/.truststore.jks
