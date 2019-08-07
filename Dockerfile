@@ -8,4 +8,6 @@ apt-get install -y confluent-community-2.12
 
 WORKDIR /app
 
+CMD ./start.sh
+
 COPY . .
