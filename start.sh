@@ -56,3 +56,4 @@ ssl.endpoint.identification.algorithm=
 PROPERTIES
 
 connect-distributed worker.properties
+
